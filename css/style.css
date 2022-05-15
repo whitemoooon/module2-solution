@@ -2,20 +2,20 @@
  box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
 .container .section {
-    width: 30%;
     padding: 1rem;
     border: 1px solid rgb(136, 136, 136);
     background-color: #e6e6e6;
 }
 
 @media (min-width: 992px) {
-    
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .container .section {
+        width: 30%;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     
