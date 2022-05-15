@@ -15,6 +15,10 @@
     background-color: #e6e6e6;
 }
 
+.container .section p {
+    float: left;
+}
+
 span {
     float: right;
     top: 0;
