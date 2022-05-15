@@ -11,7 +11,7 @@
 @media (min-width: 992px) {
     .container {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
     .container .section {
         width: 30%;
