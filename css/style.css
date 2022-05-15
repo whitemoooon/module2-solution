@@ -9,15 +9,14 @@
     grid-auto-rows: minmax(100px, auto);
 }
 
-.container .section {
-    position: relative;
+.container .section { 
     padding: 1rem;
     border: 1px solid rgb(136, 136, 136);
     background-color: #e6e6e6;
 }
 
 span {
-    position: absolute;
+    float: right;
     top: 0;
     right: 0;
     padding: 1rem 2rem;
